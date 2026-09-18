@@ -4,7 +4,7 @@ Works on every distro.
 
 ### Moving around
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `pwd` | where am I |
 | `ls or ls -la` | list all or list all with details |
@@ -14,7 +14,7 @@ Works on every distro.
 
 ### Files
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `mkdir -p folder name` | create folders, nested |
 | `touch file` | create empty file |
@@ -26,7 +26,7 @@ Works on every distro.
 
 ### Reading
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `cat file name` | print whole file |
 | `less file name` | scroll it — `q` quits, `/` searches |
@@ -35,28 +35,28 @@ Works on every distro.
 
 ### Searching
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `grep -rn "word" .` | search inside files |
 | `find . -name "*.txt"` | find files by name |
 
 ### Redirecting
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `cmd > file name` | write to file, overwrite |
 | `cmd \| grep word` | filter output |
 
 ### Permissions
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `chmod +x script.sh` | make executable |
 | `sudo cmd` | run as admin |
 
 ### Processes
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `btop or htop` | what's running (resource monitor) |
 | `ps aux \| grep name` | find a process |
@@ -65,7 +65,7 @@ Works on every distro.
 
 ### System info
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `df -h` | disk space |
 | `du -sh folder/` | size of a folder |
@@ -80,7 +80,7 @@ Works on every distro.
 
 ### Network
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `ip a` | my IP addresses |
 | `ping -c 4 google.com` | test connection (4 packages) |
@@ -90,14 +90,14 @@ Works on every distro.
 
 ### USB drives
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `udisksctl mount -b /dev/sda1` | mount it |
 | `udisksctl unmount -b /dev/sda1` | unmount — always before unplugging |
 
 ### Archives & backup
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `tar -czvf out.tar.gz folder/` | compress |
 | `tar -xzvf file.tar.gz` | extract |
@@ -106,7 +106,7 @@ Works on every distro.
 
 ### Power
 
-| Command | |
+| Command | What it does |
 |---|---|
 | `systemctl poweroff` | shut down |
 | `systemctl reboot` | restart |
@@ -115,7 +115,7 @@ Works on every distro.
 
 ### Terminal survival
 
-| | |
+| Keybind | What it does |
 |---|---|
 | `Tab` | autocomplete|
 | `Ctrl+R` | search command history |

@@ -2,7 +2,7 @@
  
 ### pacman
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `sudo pacman -Syu` | **update everything — do this first** |
 | `sudo pacman -S pkg` | install |
@@ -16,7 +16,7 @@
  
 ### yay (AUR)
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `yay -S pkg` | install from AUR |
 | `yay -Syu` | update everything incl. AUR |
@@ -37,7 +37,7 @@ yay -S --needed - < pkglist-aur.txt
  
 Config: `~/.config/hypr/hyprland.lua` — **Lua since 0.55**, old tutorials use `.conf` syntax.
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `hyprctl monitors` | resolution, scale, available modes |
 | `hyprctl binds` | all keybinds — find collisions here |

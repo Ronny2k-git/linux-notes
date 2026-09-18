@@ -4,7 +4,7 @@ Ubuntu-based — **all `apt` commands work here.**
  
  ### Mint tools
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `mintupdate` | update manager |
 | `mintinstall` | software manager |
@@ -14,7 +14,7 @@ Ubuntu-based — **all `apt` commands work here.**
  
 ### Cinnamon
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `cinnamon --replace &` | restart desktop if frozen |
 | `Ctrl+Alt+Esc` | restart Cinnamon by keyboard |

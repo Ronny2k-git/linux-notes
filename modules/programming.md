@@ -4,7 +4,7 @@ Commands I reach for daily on development machines.
  
 ## Git (general)
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `git config --global user.name “username” ` | Connection to github |
 | `git config --global user.email “email”` |Connection to github |
@@ -25,7 +25,7 @@ Commands I reach for daily on development machines.
  
 ### Git - Undoing things 
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `git restore file` | discard unstaged changes to a file |
 | `git restore --staged file` | unstage a file, keep the changes |
@@ -42,7 +42,7 @@ Commands I reach for daily on development machines.
  
 ## GitHub CLI
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `gh auth login` | authenticate |
 | `gh repo clone owner/repo` | clone |
@@ -53,7 +53,7 @@ Commands I reach for daily on development machines.
  
 ## SSH
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `ssh user@host` | connect to a remote machine |
 | `ssh-keygen -t ed25519 -C "email"` | generate an SSH key |
@@ -64,7 +64,7 @@ Commands I reach for daily on development machines.
  
 ## Processes & ports
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `lsof -i :3000` | find what's using port 3000 |
 | `kill -9 $(lsof -t -i:3000)` | kill whatever is on port 3000 |
@@ -73,7 +73,7 @@ Commands I reach for daily on development machines.
  
 ## Project
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `tree -L 2` | project structure, two levels deep |
 | `tree -I node_modules` | ignore a folder |
@@ -84,7 +84,7 @@ Commands I reach for daily on development machines.
  
 ## Node & package managers
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `npm install` / `bun install` | install dependencies |
 | `npm run dev` / `bun dev` | run a script |

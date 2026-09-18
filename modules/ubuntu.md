@@ -2,7 +2,7 @@
  
 ### apt
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `sudo apt update && sudo apt upgrade` | **update — in that order** |
 | `sudo apt install pkg` | install |
@@ -15,7 +15,7 @@
  
 ### Snap & Flatpak
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `sudo snap install pkg` | install snap |
 | `snap list` | installed snaps |
@@ -24,7 +24,7 @@
  
 ### GNOME
  
-| Command | |
+| Command | What it does |
 |---|---|
 | `gnome-control-center` | settings |
 | `nautilus path/` | file manager |
