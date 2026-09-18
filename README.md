@@ -1,4 +1,4 @@
-<img src="linux-wallpaper.webp" width="100%">
+<img src="linux-dark-wallpaper.webp" width="100%">
 
 # Linux Notes
 
