@@ -1,6 +1,6 @@
 <img src="linux-dark-wallpaper.webp" width="100%">
 
-# Linux Notes
+# 🐧 Linux Notes
 
 Personal notes and references about Linux.
 
