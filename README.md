@@ -8,8 +8,8 @@ This repository contains general/basic Linux knowledge and distribution-specific
 
 ## Modules (so far)
 
-- `global` — General Linux concepts, commands and utilities
-- `programming` - General commands I use at my work
-- `arch` — Arch Linux-specific notes
-- `ubuntu` — Ubuntu-specific notes
-- `mint` — Linux Mint-specific notes
+- [🌍 Global](modules/global.md) — General Linux concepts, commands and utilities
+- [🏹 Arch](modules/arch.md) — Arch Linux-specific notes
+- [🟠 Ubuntu](modules/ubuntu.md) — Ubuntu-specific notes
+- [🌱  Mint](modules/mint.md) — Linux Mint-specific notes
+- [💼 Programming](modules/programming.md) — General commands I use at my work

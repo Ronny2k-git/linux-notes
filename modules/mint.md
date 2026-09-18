@@ -1,3 +1,5 @@
+[← back to index](../README.md)
+
 # Mint
  
 Ubuntu-based — **all `apt` commands work here.**

@@ -1,3 +1,5 @@
+[← back to index](../README.md)
+
 # Work
  
 Commands I reach for daily on development machines.

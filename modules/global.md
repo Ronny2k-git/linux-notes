@@ -1,3 +1,5 @@
+[← back to index](../README.md)
+
 # Global
 
 Works on every distro.
