@@ -1,0 +1,127 @@
+# Global
+
+Works on every distro.
+
+### Moving around
+
+| Command | |
+|---|---|
+| `pwd` | where am I |
+| `ls or ls -la` | list all or list all with details |
+| `cd folder name` | enter folder |
+| `cd ..` | up one level |
+| `cd` | go home |
+
+### Files
+
+| Command | |
+|---|---|
+| `mkdir -p folder name` | create folders, nested |
+| `touch file` | create empty file |
+| `cp file name destination/` | copy file |
+| `cp -r folder destination/` | copy folder |
+| `mv old new` | move **or** rename |
+| `rm file` | delete file |
+| `rm -r folder` | delete folder — no undo |
+
+### Reading
+
+| Command | |
+|---|---|
+| `cat file name` | print whole file |
+| `less file name` | scroll it — `q` quits, `/` searches |
+| `tail -f file.log` | follow a log live |
+| `nano file name` | edit — `Ctrl+O` save, `Ctrl+X` exit |
+
+### Searching
+
+| Command | |
+|---|---|
+| `grep -rn "word" .` | search inside files |
+| `find . -name "*.txt"` | find files by name |
+
+### Redirecting
+
+| Command | |
+|---|---|
+| `cmd > file name` | write to file, overwrite |
+| `cmd \| grep word` | filter output |
+
+### Permissions
+
+| Command | |
+|---|---|
+| `chmod +x script.sh` | make executable |
+| `sudo cmd` | run as admin |
+
+### Processes
+
+| Command | |
+|---|---|
+| `btop or htop` | what's running (resource monitor) |
+| `ps aux \| grep name` | find a process |
+| `pgrep -a name` | find a process (command line) |
+| `pkill process name` | kill a process by name |
+
+### System info
+
+| Command | |
+|---|---|
+| `df -h` | disk space |
+| `du -sh folder/` | size of a folder |
+| `du -sh * \| sort -h` | what's eating space here |
+| `ncdu` | browse disk usage |
+| `free -h` | memory |
+| `uname -r` | kernel version |
+| `lsblk -f` | drives, partitions, filesystems |
+| `lscpu` | CPU |
+| `lsusb` | USB devices |
+| `lspci -k` | PCI devices + loaded driver |
+
+### Network
+
+| Command | |
+|---|---|
+| `ip a` | my IP addresses |
+| `ping -c 4 google.com` | test connection (4 packages) |
+| `wget url` | download a file |
+| `nmcli device` | network status |
+| `ss -tulpn` | what's listening on which port |
+
+### USB drives
+
+| Command | |
+|---|---|
+| `udisksctl mount -b /dev/sda1` | mount it |
+| `udisksctl unmount -b /dev/sda1` | unmount — always before unplugging |
+
+### Archives & backup
+
+| Command | |
+|---|---|
+| `tar -czvf out.tar.gz folder/` | compress |
+| `tar -xzvf file.tar.gz` | extract |
+| `unzip file.zip` | unzip |
+| `rsync -ah --progress src/ dst/` | copy with progress bar |
+
+### Power
+
+| Command | |
+|---|---|
+| `systemctl poweroff` | shut down |
+| `systemctl reboot` | restart |
+| `systemctl suspend` | sleep |
+| `loginctl terminate-user $USER` | log out |
+
+### Terminal survival
+
+| | |
+|---|---|
+| `Tab` | autocomplete|
+| `Ctrl+R` | search command history |
+| `Ctrl+C` | cancel running command |
+| `Ctrl+L` | clear screen |
+| `!!` / `sudo !!` | repeat last command / with sudo |
+| `man cmd` / `cmd --help` | documentation |
+
+---
